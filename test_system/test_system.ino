@@ -33,7 +33,7 @@ float numberOfDatapoints = (float) intervalUpload/intervalSensor;
 float maxAcc = 0;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(57600);
   dht.begin();
   accel.begin();
   accel.setRange(ADXL345_RANGE_16_G);   // sets range of accelerometer
