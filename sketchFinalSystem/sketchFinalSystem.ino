@@ -49,7 +49,7 @@ float numberOfDatapoints = (float) intervalUpload/intervalSensor;
 float maxAcc = 0;
 
 //threshold values
-float minTemp = 10;
+float minTemp = 5;
 float maxTemp = 26;
 float minHum = 0;
 float maxHum = 70;
